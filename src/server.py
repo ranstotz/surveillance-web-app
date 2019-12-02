@@ -30,7 +30,7 @@ sys.stderr = f
 connection_flag = False
 
 # configuration data
-config_data = get_config('../../config.yaml')
+config_data = get_config('../config.yaml')
 
 # =============================================================================
 # routing

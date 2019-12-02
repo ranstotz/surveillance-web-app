@@ -72,12 +72,6 @@ def do_admin_login():
     return home()
 
 
-@app.route("/test")
-def index():
-    """ Test to render a React app. """
-
-    return render_template("index.html")
-
 # =============================================================================
 # functions
 # =============================================================================
